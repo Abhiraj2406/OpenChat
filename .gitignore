@@ -1,0 +1,47 @@
+# ==========================
+# Node.js Dependencies
+# ==========================
+node_modules/
+**/node_modules/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+!.env.example
+
+# ==========================
+# Firebase Admin Credentials
+# ==========================
+serviceAccountKey.json
+**/serviceAccountKey.json
+*firebase-adminsdk*.json
+
+# ==========================
+# Build Files
+# ==========================
+dist/
+build/
+coverage/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# ==========================
+# OS and Editor Files
+# ==========================
+.DS_Store
+Thumbs.db
+.vscode/
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.temp
+.cache/
